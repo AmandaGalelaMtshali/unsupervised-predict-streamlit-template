@@ -56,7 +56,7 @@ rating_count = pd.read_csv('resources/data/rating_count.csv')
 
 # Displaying the logo image
 
-log = "resources/imgs/logo.jpg"
+log = "resources/imgs/logo2.jpeg"
 #st.image(image, width=200)
 
 cola, mid, colb = st.columns([25,1,40])
@@ -126,7 +126,7 @@ def main():
 
     # ------------- SAFE FOR ALTERING/EXTENSION -------------------
     if page_selection == "Instruction & Overview":
-        st.title("Welcome to ***DATAMIN*** Movie Recommender App 🎥🍿")
+        st.title("Welcome to ***Sortify*** Movie Recommender App 🎥🍿")
         st.image("resources/imgs/Movie-Recommendation-System-with-Streamlit-and-Python-ML-1.jpg",)
         st.write("Hi there🙋‍♂️, looking for that nice thing to watch without having to go over the hustle of scrolling for movies? Relax, we've got you.🤗")
         st.write("")
@@ -498,10 +498,10 @@ def main():
 
     if page_selection == "Contact Us":
                 # Define the company details
-        company_name = "DATAMIN"
+        company_name = "SORTIFY"
         company_address = "123 Street, Johannesburg, South Africa"
         company_phone = "+27 11 555 6666"
-        company_email = "datamin@data.com"
+        company_email = "sortify@data.com"
 
         # Display the company details in smaller boxes
         st.subheader("Company Details")
